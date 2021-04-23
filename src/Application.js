@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
-
 import styled from "styled-components"
+import Music from "./components/Music"
 
 const Container = styled.div`
   display: flex;
@@ -29,6 +29,7 @@ const Application = () => {
 
   return (
     <Container color={color}>
+      <Music />
     </Container>
   )
 }
